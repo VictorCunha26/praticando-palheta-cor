@@ -1,0 +1,297 @@
+body{
+    height:100vh;
+    display: grid;
+    grid-template-rows: repeat(13, 2fr);
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+    background-color: #EEF5FF;
+}
+
+.barra_nav{
+ border: 1px solid black;
+ border-radius: 10px;
+ grid-area: 1/1/14/1;
+ background-color: #86B6F6;
+}
+
+.img_nav{
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: #176B87;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+
+.nav_text{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ margin-left: 30px;
+}
+
+
+.img_dash{
+    width: 20px;
+    height: 20px;
+}
+
+.txt_dash{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.txt_dash2{
+    margin-left: 10px;
+}
+
+.barra_pesquisa{
+    margin-left: 15px;
+    grid-area: 1/2/1/4;
+    background-color: #B4D4FF;
+    border-radius: 10px;
+}
+
+.pesquisa{
+    margin-left: 265px;
+}
+
+.usuario{
+    display: flex;
+    grid-area: 1/6/1/6;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img_usuario{
+    width: 30px;
+    height: 30px;
+}
+
+.nome_usuario{
+    font-size: 12px;
+}
+
+.years{
+    font-weight: bold;
+}
+
+.sino{
+    width: 20px;
+    height: 20px;
+    grid-area: 1/8/1/8;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.frame_1{
+    background-color:#86B6F6;
+    border-radius: 20px;
+    grid-area: 2/2/6/10;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.intro_text{
+    margin-left: 50px; 
+    margin-top: 50px;
+}
+
+.welcome{
+    font-size: large;
+    font-weight: bold;
+}
+.finance{
+    grid-area: 6/2/6/2;
+    margin-left: 15px;
+}
+
+.intructors{
+    grid-area: 6/6/6/8;
+    margin-left: 130px;
+}
+
+.frame2{
+    background-color: #B4D4FF;
+    grid-area: 7/2/11/4;
+    margin-right: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    max-width: 250px;
+    width: 100%;
+    max-height: 270px;
+    height: 100%;
+}
+
+.frame3{
+    grid-area: 7/3/11/5;
+    background-color: #B4D4FF;
+    margin-left: 100px;
+    border-radius: 10px;
+    max-width: 250px;
+    width: 100%;
+    max-height: 270px;
+    height: 100%;
+}
+
+.frame4{
+    grid-area: 7/4/11/6;
+    background-color: #B4D4FF;
+    margin-left: 200px;
+    border-radius: 10px;
+    max-width: 250px;
+    width: 100%;
+    max-height: 270px;
+    height: 100%;
+}
+
+.frame5{
+    grid-area: 11/2/14/5;
+    background-color: #86B6F6;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+    max-height: 100px;
+    height: 100%;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.frame6{
+    grid-area: 11/4/14/7;
+    background-color: #86B6F6;
+    margin-left: 75px;
+    margin-top: 20px;
+    max-height: 100px;
+    height: 100%;
+    max-width: 380px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.frame7{
+    grid-area: 8/6/14/8;
+    background-color: #176B87;
+    margin-left: 130px;
+    margin-top: 20px;
+    max-height: 285px;
+    height: 100%;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.img_coins{
+    margin-left: 90px;
+    margin-top: 10px;
+    height: 70px;
+    width: auto;
+}
+
+.img_money{
+    margin-left: 90px;
+    margin-top: 10px; 
+    height: 70px;
+    width: auto;
+}
+
+.img_graphic{
+    margin-left: 90px;
+    margin-top: 10px; 
+    height: 70px;
+    width: auto;
+}
+.txt_frame{
+    margin-left: 95px;
+    font-weight: bold; 
+}
+.txt_frame2{
+    margin-left: 80px;
+}
+
+.txt_frame3{
+    margin-left: 85px;
+}
+
+.txt_frame4{
+    margin-left: 110px;
+}
+
+.txt_frame5{
+    margin-left: 105px;
+    font-weight: bold; 
+}
+
+.txt_frame7{
+  text-align: justify;
+  color: azure;
+}
+.txt_negrito{
+    font-weight: bold; 
+}
+
+.view{
+    border: solid black;
+    border-radius: 10px;
+    width: 35px;
+    background-color: #B4D4FF;;
+}
+
+.course{
+    grid-area: 10/2/10/2;
+    margin-left: 10px;
+    margin-top: 50px;
+    
+}
+
+.see_all{
+    grid-area: 10/5/10/5;
+    margin-left: 130px;
+    margin-top: 50px;
+    
+}
+
+.circulos{
+    grid-area: 7/6/7/8;
+    margin-left: 100px;
+    display: flex;
+}
+
+.circulo{
+    border: 1px solid black;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 20px;
+    background-image: url(icons8-test-account-48.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+    
+}
+
+
+.img_laptop{
+    grid-area: 11/3/14/3;
+    height: 80px;
+    width: auto;
+    margin-top: 20px;
+}
+
+
+.img_graphic2{
+    grid-area: 11/5/14/5;
+    height: 80px;
+    width: auto;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+
